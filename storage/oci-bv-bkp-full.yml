@@ -1,0 +1,8 @@
+apiVersion: snapshot.storage.k8s.io/v1
+kind: VolumeSnapshotClass
+metadata:
+  name: oci-bv-bkp-full
+driver: blockvolume.csi.oraclecloud.com
+parameters:
+  backupType: full
+deletionPolicy: Delete

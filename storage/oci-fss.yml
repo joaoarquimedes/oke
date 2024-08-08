@@ -1,0 +1,12 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  annotations:
+    storageclass.kubernetes.io/is-default-class: "false"
+  name: oci-fss
+provisioner: fss.csi.oraclecloud.com
+reclaimPolicy: Delete
+parameters:
+  availabilityDomain: SA-VINHEDO-1-AD-1
+  mountTargetSubnetOcid: < ocid1... >
+  compartmentOcid: < ocid1... >
