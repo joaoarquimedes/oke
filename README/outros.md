@@ -1,10 +1,5 @@
 # Outros
 
-Para tratar a URL do CNAME lb.client.com.br, aplicar: https://github.com/client/oke-lb.client.com.br
-
-
-<br><br>
-
 # BUG FIX
 
 Contour Ingress com status de Processing na verificação de integridade do ArgoCD.
